@@ -1,0 +1,96 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+
+* {
+  /* targeting everything */
+  box-sizing: border-box;
+  /* font-family: "Gilroy","Helvetica Neue" sans-serif; */
+  /* font-family: "Lora", sans-serif; */
+  font-family: "Rubik", sans-serif;
+  /* color: #393c41; */
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+p, label{
+  color: #21556e;
+}
+
+h2, h4{
+  color: #A52A2A;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100px;
+  position: sticky;
+  background-color: white;
+  z-index: 888;
+  top: 0;
+
+
+
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcf6nadSYiIeWsde8GbIhn8wg89cKw74YPg&usqp=CAU"); */
+  /* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pN9psdHHGIfpwG_g77_mFYybAWbZXmKS0A&usqp=CAU */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: blue; */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media(max-width: 763px){
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100px;
+    margin-top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 888;
+    top: 0;
+  }
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  border-top: 1px solid gray;
+  background-color: white;
+  z-index: 888;
+}
+
+
+

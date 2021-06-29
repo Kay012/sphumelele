@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 5px; */
+  border-top: 3px solid #A52A2A;
+  /* background-image: url(""); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpcf6nadSYiIeWsde8GbIhn8wg89cKw74YPg&usqp=CAU");
+  /* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6pN9psdHHGIfpwG_g77_mFYybAWbZXmKS0A&usqp=CAU */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background-color: blue; */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.mainpages{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-bottom: 8.5rem;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+  
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.head{
+  /* display: flex; */
+  
+  align-items: center;
+  justify-content: center;
+}

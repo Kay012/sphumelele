@@ -1,0 +1,131 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    padding-top: 3rem;
+    gap: 20px;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    place-items: center;
+}
+
+@media(max-width: 780px){
+    .contact{
+        flex-direction: column;
+        width: 80%;
+    }
+    .contact__info{
+        width: 100% !important;
+        display: flex;
+    }
+    .info__links{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        
+        /* gap: 8px; */
+    }
+    .info__links p {
+        padding-right: 15px;
+
+    }
+    .info__links a{
+        text-overflow: ellipsis;
+    }
+
+
+}
+
+.contact__info{
+    width: 300px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.info__links p{
+    display: flex;
+    flex-direction: column;
+    color: #A52A2A;
+}
+
+.contact__info p {
+    font-size: 18px;
+}
+
+.info__links a{
+    padding-top: 5px ;
+    font-size: 15px;
+    text-decoration: none;
+    color: #21556e;
+}
+
+.info__links a:hover{
+    opacity: 0.7;
+}
+
+.info__links span {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #21556e;
+}
+
+.contact_bod{
+    justify-content: flex-end;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+@media(max-width: 500px){
+    .contact-form{
+        width: 90%;
+    }
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row_radio{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.contact-form input, textarea, select {
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact button {cursor: pointer;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 550;
+    border: 1px solid #21556e;
+    background-color: #21556e;
+
+}
+
+.contact button:hover{
+    opacity: 0.8;
+}

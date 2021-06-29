@@ -1,0 +1,77 @@
+.biography{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 65.8807826589%;
+    max-width: 700px;
+}
+@media(max-width:780px){
+    .biography{
+        width: 90%;
+    }
+}
+
+.biography__title{
+    place-items: center;
+}
+
+.biography__top {
+    border: 1px solid gray;
+    margin-top: 20px;
+    overflow:hidden
+}
+
+.top__wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding: 5px;
+
+}
+
+@media(max-width: 780px){
+    .top__wrap{
+        margin: 0;
+        flex-direction: column;
+        place-items: center;
+    }
+}
+
+
+.wrapper__info{
+    flex: 0.5;
+}
+
+@media(max-width:780px){
+    .wrapper__info{
+        
+        flex: 1;
+    }
+}
+
+.wrapper__image, .wrapper__image-mobile{
+     flex: 0.4;
+     height: 400px;
+     width: 100px;
+     
+}
+
+@media(min-width: 781px){
+    .wrapper__image-mobile{
+        display: none;
+    }
+}
+@media(max-width:780px){
+    .wrapper__image{
+        
+        display: none;
+    }
+}
+
+.wrapper__image img, .wrapper__image-mobile img{
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}

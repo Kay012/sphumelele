@@ -1,0 +1,33 @@
+.footer__connect_links{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    margin-top: -10px;
+    gap: 5px;
+}
+
+.footer__last_line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+@media(max-width: 780px){
+
+    .footer__last_line{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap:unset;
+    }
+    .footer__last_line .divider{
+        display: none;
+    }
+}
+.footer__last_line span{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 12px;
+    color: gray;
+}
