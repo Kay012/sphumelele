@@ -10,11 +10,11 @@
     cursor: pointer;
     color: #21556e;;
     font-weight: 600;
-    padding: 5px;
-    font-size: 12px;
+    padding: 0 5px;
+    font-size: 17px;
 }
 .menu_item a > .MuiSvgIcon-root{
-    font-size:18px;
+    font-size: 19px;
 }
 
 .menu_item a:hover{

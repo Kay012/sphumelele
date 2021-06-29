@@ -27,12 +27,21 @@ code {
 a{
   text-decoration: none;
 }
-p, label{
+p{
   color: #21556e;
+  font-size: 20px;
+}
+
+label{
+  color: #21556e;
+  font-size: 18px;
 }
 
 h2, h4{
   color: #A52A2A;
+}
+h2 {
+  font-size: 26px;
 }
 
 .header{

@@ -1,7 +1,7 @@
 .contact {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    width: 60%;
     justify-content: space-between;
     padding-top: 3rem;
     gap: 20px;
@@ -13,6 +13,13 @@
     gap: 5px;
     place-items: center;
 }
+
+@media(max-width: 1000px){
+    .contact{
+        width: 80%;
+    }
+}
+
 
 @media(max-width: 780px){
     .contact{
@@ -44,6 +51,7 @@
 .contact__info{
     width: 300px;
 }
+
 .info{
     display: flex;
     flex-direction: column;
@@ -60,13 +68,13 @@
     color: #A52A2A;
 }
 
-.contact__info p {
+/* .contact__info p {
     font-size: 18px;
-}
+} */
 
 .info__links a{
     padding-top: 5px ;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: #21556e;
 }
@@ -81,8 +89,16 @@
     color: #21556e;
 }
 
+.info__links .phone {
+    font-size: 18px;
+}
+
 .contact_bod{
     justify-content: flex-end;
+}
+
+.contact_body .media h4{
+    font-size: 20px;
 }
 
 .contact-form{
@@ -103,23 +119,21 @@
     gap: 5px;
 }
 
-.row_radio{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
 
 .contact-form input, textarea, select {
     padding: 5px;
     border-radius: 5px;
     outline: none;
+    font-size: 17px;
+    background-color: white;
 }
 
-.contact button {cursor: pointer;
+.contact button {
+    cursor: pointer;
     color: white;
     padding: 5px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 550;
     border: 1px solid #21556e;
     background-color: #21556e;

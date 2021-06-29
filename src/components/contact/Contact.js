@@ -86,9 +86,9 @@ const skeleton_message = {
                             <SocialMediaIcon Icon={PhoneIcon} color="#2E8B57" size="27px" />
                             <span style={{color: "#2E8B57", fontSize: "19px"}}>Phone / Email:</span>
                         </span>
-                        <span>0767566216</span>
-                        <span>0786852570</span>
-                        <span>(Siphumelelekati @gmail.com)</span>
+                        <span className="phone">0767566216</span>
+                        <span className="phone">0786852570</span>
+                        <span className="phone">(Siphumelelekati @gmail.com)</span>
                     </p>
                 </div>
             </div>

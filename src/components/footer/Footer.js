@@ -14,11 +14,11 @@ const Footer = () => {
         <div className='footer'>
 
             <div className='footer__connect_links'>
-                <SocialMediaIcon Icon={TwitterIcon} color='#00aced' size="16px"/>
-                <SocialMediaIcon Icon={InstagramIcon} color='#bc2a8d' size="16px"/>
-                <SocialMediaIcon Icon={FacebookIcon} color='#3b5998' size="16px"/>
-                <SocialMediaIcon Icon={LinkedInIcon} color='#007bb6' size="16px"/>
-                <SocialMediaIcon Icon={MailIcon} color='#D44638' size="16px"/>
+                <SocialMediaIcon Icon={TwitterIcon} color='#00aced' size="21px"/>
+                <SocialMediaIcon Icon={InstagramIcon} color='#bc2a8d' size="21px"/>
+                <SocialMediaIcon Icon={FacebookIcon} color='#3b5998' size="21px"/>
+                <SocialMediaIcon Icon={LinkedInIcon} color='#007bb6' size="21px"/>
+                <SocialMediaIcon Icon={MailIcon} color='#D44638' size="21px"/>
             </div>
             <div className="footer__menu">
                 <Menu />

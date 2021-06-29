@@ -16,6 +16,10 @@
     place-items: center;
 }
 
+.biography__title h2 {
+    font-size: 30px;
+}
+
 .biography__top {
     border: 1px solid gray;
     margin-top: 20px;

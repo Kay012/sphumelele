@@ -36,7 +36,7 @@
 }
 
 .top__author-name p {
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 10px;
     color: white;
 }
@@ -165,7 +165,7 @@
 }
 .body__book-caption h2{
     flex-wrap: nowrap;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .body__book-caption p{
@@ -175,7 +175,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 4; /* number of lines to show */
     -webkit-box-orient: vertical;
-    font-size: 14px;
+    font-size: 19px;
 
 }
 
@@ -191,7 +191,7 @@
     border-radius: 5px;
     left: 0;
     color:#A52A2A;
-    font-size: 14px;
+    font-size: 19px;
 
 }
 
