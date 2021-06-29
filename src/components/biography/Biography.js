@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './Biography.css'
-import author from '../../assets/images/author.jpg'
+import author from '../../assets/images/author.jpeg'
 
 const Biography = () => {
     return (

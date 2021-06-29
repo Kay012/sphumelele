@@ -55,7 +55,7 @@ const Header = () => {
                     <Fade right >
                     <div className='burgernav'>
                         <div className="close__icon">
-                            <CloseIcon onClick={burgerStatusHandler}/>
+                            <CloseIcon onClick={burgerStatusHandler} className="icon"/>
                         </div>
                         <div onClick={burgerStatusHandler}>
                             <MobileMenu />

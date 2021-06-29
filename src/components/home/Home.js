@@ -1,5 +1,5 @@
 import React from 'react'
-import author from '../../assets/images/author.jpg'
+import author from '../../assets/images/author.jpeg'
 import book from '../../assets/images/book-cover.jpeg'
 import './Home.css'
 import { Link } from 'react-router-dom'

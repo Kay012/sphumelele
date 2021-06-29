@@ -8,6 +8,7 @@ import {burgerNavReducer} from './store/reducer'
 import {createStore, applyMiddleware, combineReducers} from 'redux'
 import {Provider} from 'react-redux'
 import ReduxThunk from 'redux-thunk'
+import ScrollToTop from './components/ScrollToTop';
 
 const rootReducer = combineReducers({
   burgerNav: burgerNavReducer
@@ -24,7 +25,8 @@ function App() {
         <Header />
         
         <div className="mainpages">
-              <Pages className='pages'/>
+          <ScrollToTop />
+          <Pages className='pages'/>
         </div>
         
         <Footer />

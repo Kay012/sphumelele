@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     width: 55.8807826589%;
+    margin-top: 2rem;
 }
 
 @media(max-width:780px){
@@ -83,6 +84,13 @@ display: flex;
     flex-direction: column;
 }
 
+.publisher .publisher__info a {
+    color: #21556e;
+}
+
+.publisher .publisher__info a:hover {
+    border-bottom: 2px solid #21556e;
+}
 @media(min-width: 781px){
     .publisher__image-mobile{
         display: none;

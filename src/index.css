@@ -22,6 +22,7 @@ code {
   font-family: "Rubik", sans-serif;
   /* color: #393c41; */
   padding: 0;
+  margin-top: 0;
 }
 
 a{
@@ -45,6 +46,7 @@ h2 {
 }
 
 .header{
+  /* border-top: 3px solid #A52A2A; */
   display: flex;
   flex-direction: row;
   justify-content: center;
