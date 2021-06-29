@@ -8,7 +8,7 @@ const Home = () => {
         <div className='home'>
             <div className="mobile__image-wrapper">
                 <div className="top__author-mobile_image">
-                    <img  src={author} alt=''/>
+                    <img  src={author} alt='author image'/>
                 </div>
             </div>
             
@@ -27,7 +27,7 @@ const Home = () => {
 
                 </div>
                 <div className="top__author-image">
-                    <img  src={author} alt=''/>
+                    <img  src={author} alt='author image'/>
                 </div>
 
             </section>
@@ -35,7 +35,7 @@ const Home = () => {
             <div className="home__body">
                 <div className="body__image-wrapper">
                     <div className="body__book-image" >
-                        <img src={book} alt=''/>
+                        <img src={book} alt='book image'/>
                     </div>
                 </div>
                 
