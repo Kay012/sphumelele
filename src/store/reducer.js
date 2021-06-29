@@ -9,6 +9,8 @@ export const burgerNavReducer = (state=initialstate, action) =>{
             return {
                 burgerStatus: action.burgerStatus
             }
+        default:
+            break;
     }
     return state
 }
