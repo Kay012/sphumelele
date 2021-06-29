@@ -14,14 +14,14 @@ const Book = () => {
 
                     <div className="wrap-book">
                         <div className="wrapper__book-image">
-                            <img src={book} alt='book image'/>
+                            <img src={book} alt=''/>
                         </div>
                         
                     </div>
 
                     <div className="mobile_wrap-book">
                         <div className="wrapper__book-image">
-                            <img src={book} alt='book image'/>
+                            <img src={book} alt=''/>
                         </div>
                         
                     </div>
@@ -102,7 +102,7 @@ const Book = () => {
                 </div>
 
                 <div className="publisher__image">
-                    <img src={publisher} alt='publisher image' />
+                    <img src={publisher} alt='' />
                 </div>
                 
 

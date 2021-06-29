@@ -14,7 +14,7 @@ const Biography = () => {
                 <div className="top__wrap">
 
                     <div className="wrapper__image-mobile">
-                        <img src={author} alt='author image' />
+                        <img src={author} alt='' />
                     </div>
                     
                     <div className="wrapper__info">
@@ -41,7 +41,7 @@ const Biography = () => {
                     </div>
 
                     <div className="wrapper__image">
-                        <img src={author} alt='author image' />
+                        <img src={author} alt='' />
                     </div>
 
                 </div>
