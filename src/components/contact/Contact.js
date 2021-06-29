@@ -59,7 +59,7 @@ const skeleton_message = {
                     
                     <p>
                         <span className="media">
-                            <SocialMediaIcon Icon={FacebookIcon} color='#3b5998' size="27px"/>
+                            <SocialMediaIcon Icon={FacebookIcon} color='#3b5998' size="29px"/>
                             <span style={{color: "#3b5998", fontSize: "19px"}}>Facebook:</span>
                         </span>
                         <a href="https://www.facebook.com/siphumelele.kati.50">@Sphumelele cat-man Kati</a>
@@ -67,7 +67,7 @@ const skeleton_message = {
                     </p>
                     <p>
                         <span className="media">
-                            <SocialMediaIcon Icon={InstagramIcon} color='#bc2a8d' size="27px"/>
+                            <SocialMediaIcon Icon={InstagramIcon} color='#bc2a8d' size="29px"/>
                             <span style={{color: "#bc2a8d", fontSize: "19px"}}>Instagram:</span>
                         </span>
                         <Link to="/">@Sphumelele cat-man Kati</Link>
@@ -75,7 +75,7 @@ const skeleton_message = {
                     </p>
                     <p>
                         <span className="media">
-                            <SocialMediaIcon Icon={LinkedInIcon} color='#007bb6' size="27px"/>
+                            <SocialMediaIcon Icon={LinkedInIcon} color='#007bb6' size="29px"/>
                             <span style={{color: "#007bb6", fontSize: "19px"}}>LinkedIn:</span>
                         </span>
                         <Link to="/">@Sphumelele cat-man Kati</Link>
@@ -83,7 +83,7 @@ const skeleton_message = {
                     </p>
                     <p>
                         <span className="media">
-                            <SocialMediaIcon Icon={PhoneIcon} color="#2E8B57" size="27px" />
+                            <SocialMediaIcon Icon={PhoneIcon} color="#2E8B57" size="29px" />
                             <span style={{color: "#2E8B57", fontSize: "19px"}}>Phone / Email:</span>
                         </span>
                         <span className="phone">0767566216</span>
@@ -97,8 +97,8 @@ const skeleton_message = {
             </div>
         </div>
         <div className="contact_body">
-            <div className="media">
-                <SocialMediaIcon Icon={MailIcon} color='#D44638' size="27px"/>
+            <div className="media" style={{placeItems: 'center'}}>
+                <SocialMediaIcon Icon={MailIcon} color='#D44638' size="29px"/>
                 <h4>Email us!</h4>
             </div>
             <form className="contact-form" onSubmit={sendEmail}>
