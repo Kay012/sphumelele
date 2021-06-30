@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
                 
                 <div className="body__book-caption">
-                    <h2>Title: Slippy Book Margin, 2021</h2>
+                    <h2>Title: A thin line between a friend and a foe, 2021</h2>
                     <p>
                         Making friends may be as easy as a blink of an eye. In most cases,
                         not much thought is given to it, as it just happens randomly.

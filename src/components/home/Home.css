@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 2rem;
     /* padding-bottom: 8.5rem; */
-    z-index: 1;
+    /* z-index: 1; */
     width: 65.8807826589%;
  
     /* margin-left: 17.0596086706%; */
@@ -16,6 +16,14 @@
         width: 90%;
     }
 }
+
+
+
+/* @media(max-width: 350px){
+    .home{
+        width: 10%;
+    }
+} */
 
 .home__top{
     display: flex;
@@ -95,6 +103,8 @@
     }
 }
 
+
+
 .top__author-image img{
     object-fit: cover;
     height: 100%;
@@ -134,6 +144,13 @@
     }
 }
 
+/* @media(max-width: 349px){
+    .home__body{
+        width: 100%;
+        min-width: 300px;
+    }
+} */
+
 .body__image-wrapper{
     flex: 0.4;
 
@@ -152,6 +169,15 @@
     border: 3px solid #21556e;
 
 }
+
+@media(max-width: 349px){
+    .body__book-image{
+        margin-top: -5em;
+        width: 190px;
+    }
+}
+
+
 
 .body__book-image img {
     object-position: center;
@@ -174,14 +200,29 @@
     flex:0.5;
     text-overflow: ellipsis;
 }
+
+@media(max-width: 349px){
+    .body__book-caption{
+        width: 90%;
+    }
+    .body__book-caption p {
+        
+        /* width: 100%; */
+        flex:1;
+        flex-wrap: wrap;
+        /* flex:1; */
+        /* text-overflow: ellipsis; */
+    }
+}
 .body__book-caption h2{
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     font-size: 25px;
 }
 
+
 .body__book-caption p{
     color: #21556e;;
-   
+    flex-wrap: wrap;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 4; /* number of lines to show */
