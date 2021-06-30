@@ -112,7 +112,7 @@ display: flex;
     .mobile_wrap-book{
         display: block;
         width: 200px;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
 
     }
     /* .top__wrapper{
@@ -136,7 +136,7 @@ display: flex;
 }
 
 @media(max-width: 500px){
-    .top__wrapper{
+    .book__top .top__wrapper{
         margin-top: 50px;
         display: flex;
         flex-direction: column;
