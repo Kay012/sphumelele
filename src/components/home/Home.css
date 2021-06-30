@@ -148,7 +148,6 @@
 
 @media(max-width: 360px){
     .home__body{
-        /* height: 650px; */
         width: 105%;
         margin-bottom: -3rem;
         padding-bottom: 0;
@@ -213,7 +212,7 @@
         flex: 1;
     }
     .body__book-caption p {
-        /* margin-bottom: 2rem; */
+        margin-bottom: 2rem;
         /* width: 100%; */
         flex:1;
         /* flex-wrap: wrap; */
@@ -230,12 +229,11 @@
 .body__book-caption p{
     color: #21556e;;
     flex-wrap: wrap;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 4; /* number of lines to show */
     -webkit-box-orient: vertical;
     font-size: 19px;
-    /* text-overflow: ellipsis; */
 
 }
 
