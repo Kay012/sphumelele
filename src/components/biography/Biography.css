@@ -97,7 +97,7 @@
 
 @media(max-width: 360px){
     .wrapper__image-mobile img{
-        width: 85%;
+        width: 90%;
         margin-top: 20px;
         /* max-height: 100%;
         max-width: 100%; */
