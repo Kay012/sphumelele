@@ -149,7 +149,7 @@
 @media(max-width: 360px){
     .home__body{
         width: 105%;
-        margin-bottom: -3rem;
+        /* margin-bottom: -3rem; */
         padding-bottom: 0;
         /* min-width: 285px; */
     }
@@ -212,7 +212,7 @@
         flex: 1;
     }
     .body__book-caption p {
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
         /* width: 100%; */
         flex:1;
         /* flex-wrap: wrap; */
