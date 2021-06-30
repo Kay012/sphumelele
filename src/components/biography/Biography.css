@@ -98,7 +98,7 @@
 @media(max-width: 360px){
     .wrapper__image-mobile img{
         place-self: center;
-        width: 95%;
+        width: 93%;
         margin-top: 15px;
         margin-bottom: 15px;
         /* max-height: 100%;
