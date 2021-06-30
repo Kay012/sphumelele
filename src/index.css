@@ -97,7 +97,7 @@ h2 {
   height: 75px;
   display: flex;
   flex-direction: column;
-  place-items: center;
+  place-items: center !important;
   border-top: 1px solid gray;
   background-color: white;
   z-index: 888;
