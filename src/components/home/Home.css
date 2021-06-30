@@ -22,7 +22,7 @@
 @media(max-width: 360px){
     .home{
         width: 110%;
-        margin-bottom: 3rem;
+        
     }
 }
 
@@ -149,6 +149,8 @@
 @media(max-width: 360px){
     .home__body{
         width: 105%;
+        margin-bottom: -3rem;
+        padding-bottom: 10px;
         /* min-width: 285px; */
     }
 }
