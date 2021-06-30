@@ -148,7 +148,7 @@
 
 @media(max-width: 360px){
     .home__body{
-        height: 500px;
+        height: 800px;
         width: 105%;
         margin-bottom: -3rem;
         padding-bottom: 0;
