@@ -112,13 +112,14 @@ display: flex;
     .mobile_wrap-book{
         display: block;
         width: 200px;
+        margin-bottom: 2rem;
 
     }
-    .top__wrapper{
+    /* .top__wrapper{
         margin: 0;
         padding: 0;
 
-    }
+    } */
 }
 
 @media(max-width: 780px){
