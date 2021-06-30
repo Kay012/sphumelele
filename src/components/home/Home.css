@@ -145,12 +145,12 @@
     }
 }
 
-/* @media(max-width: 349px){
+@media(max-width: 500px){
     .home__body{
-        width: 100%;
-        min-width: 300px;
+        /* width: 100%; */
+        min-width: 285px;
     }
-} */
+}
 
 .body__image-wrapper{
     flex: 0.4;
@@ -171,7 +171,7 @@
 
 }
 
-@media(max-width: 349px){
+@media(max-width: 500px){
     .body__book-image{
         margin-top: -9em;
         width: 150px;
@@ -202,7 +202,7 @@
     text-overflow: ellipsis;
 }
 
-@media(max-width: 349px){
+@media(max-width: 500px){
     .body__book-caption{
         width: 90%;
         flex: 1;
