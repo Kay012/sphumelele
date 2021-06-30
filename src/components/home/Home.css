@@ -213,6 +213,7 @@
     }
     .body__book-caption p {
         /* margin-bottom: 2rem; */
+        padding-bottom: 20px;
         /* width: 100%; */
         flex:1;
         /* flex-wrap: wrap; */
