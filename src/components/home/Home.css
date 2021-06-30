@@ -219,7 +219,7 @@
         flex:1;
         /* flex-wrap: wrap; */
         /* flex:1; */
-        /* text-overflow: ellipsis; */
+        text-overflow: ellipsis;
     }
 }
 .body__book-caption h2{
