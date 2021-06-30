@@ -19,11 +19,11 @@
 
 
 
-/* @media(max-width: 350px){
+@media(max-width: 360px){
     .home{
-        width: 10%;
+        width: 100%;
     }
-} */
+}
 
 .home__top{
     display: flex;
@@ -147,8 +147,8 @@
 
 @media(max-width: 360px){
     .home__body{
-        /* width: 100%; */
-        min-width: 285px;
+        width: 100%;
+        /* min-width: 285px; */
     }
 }
 
@@ -174,7 +174,7 @@
 @media(max-width: 360px){
     .body__book-image{
         margin-top: -9em;
-        width: 225px;
+        width: 210px;
     }
 }
 
