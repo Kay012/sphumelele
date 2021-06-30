@@ -107,6 +107,19 @@ display: flex;
         display: none;
     }
 }
+@media(max-width: 360px){
+
+    .mobile_wrap-book{
+        display: block;
+        width: 200px;
+
+    }
+    .top__wrapper{
+        margin: 0;
+        padding: 0;
+
+    }
+}
 
 @media(max-width: 780px){
     .publisher__image{
