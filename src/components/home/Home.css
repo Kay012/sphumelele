@@ -145,7 +145,7 @@
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 400px){
     .home__body{
         /* width: 100%; */
         min-width: 285px;
@@ -171,7 +171,7 @@
 
 }
 
-@media(max-width: 500px){
+@media(max-width: 400px){
     .body__book-image{
         margin-top: -9em;
         width: 150px;
@@ -202,7 +202,7 @@
     text-overflow: ellipsis;
 }
 
-@media(max-width: 500px){
+@media(max-width: 400px){
     .body__book-caption{
         width: 90%;
         flex: 1;
