@@ -172,8 +172,8 @@
 
 @media(max-width: 349px){
     .body__book-image{
-        margin-top: -5em;
-        width: 190px;
+        margin-top: -9em;
+        width: 150px;
     }
 }
 
@@ -204,6 +204,7 @@
 @media(max-width: 349px){
     .body__book-caption{
         width: 90%;
+        flex: 1;
     }
     .body__book-caption p {
         
