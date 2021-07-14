@@ -17,7 +17,8 @@
 @media(min-width: 501px){
 .top__wrapper{
     display: flex;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 0 40px;
     }
@@ -141,7 +142,8 @@ display: flex;
         display: flex;
         flex-direction: column;
         width: 90%;
-        place-items:center;
+        justify-content: center;
+        align-items: center;
         gap: 40px;
     }
 

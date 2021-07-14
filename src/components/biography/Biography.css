@@ -2,7 +2,8 @@
     margin: 50px;
     display: flex;
     flex-direction: column;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     /* width: 65.8807826589%; */
     width: 950px;
     /* padding-top: 2rem; */
@@ -23,7 +24,8 @@
 
 
 .biography__title{
-    place-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .biography__title h2 {
@@ -53,7 +55,8 @@
         margin: 0;
         gap: 30px;
         flex-direction: column;
-        place-items: center;
+        justify-content: center;
+        align-items: center;
     }
 }
 
