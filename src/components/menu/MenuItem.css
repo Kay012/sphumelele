@@ -4,7 +4,11 @@
     
 }
 
-
+@media(max-width: 320px){
+    .menu_item{
+        padding-bottom: 15px;
+    }
+}
 .menu_item a{
     display: flex;
     flex-direction: row;
