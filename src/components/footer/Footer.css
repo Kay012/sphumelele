@@ -1,8 +1,8 @@
 .footer__connect_links{
-    position: inherit;
+    position: relative;
     display: flex;
     flex-direction: row;
-    place-items: center;
+    place-self: center;
     margin-top: -10px;
     gap: 5px;
 }
