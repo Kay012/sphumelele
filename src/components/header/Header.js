@@ -52,7 +52,7 @@ const Header = () => {
                 
                 {
                     burgerStatus && 
-                    <Fade right >
+                    // <Fade right >
                     <div className='burgernav'>
                         <div className="close__icon">
                             <CloseIcon onClick={burgerStatusHandler} className="icon"/>
@@ -61,7 +61,7 @@ const Header = () => {
                             <MobileMenu />
                         </div>
                     </div> 
-                    </Fade>
+                    // </Fade>
                 }
                 
             </div>
