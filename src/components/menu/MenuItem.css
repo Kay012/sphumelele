@@ -6,7 +6,7 @@
 
 @media(max-width: 500px){
     .menu_item{
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 }
 .menu_item a{
