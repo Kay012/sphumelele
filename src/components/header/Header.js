@@ -70,18 +70,18 @@ const Header = () => {
             
         </div>
 
-            {/* {burgerStatus &&   */}
-                     <Fade left when={burgerStatus} >
-                    <div className='burgernav'>
-                        <div className="close__icon">
-                            <CloseIcon onClick={burgerStatusHandler} className="icon"/>
-                        </div>
-                        <div onClick={burgerStatusHandler}>
-                            <MobileMenu />
-                        </div>
-                    </div> 
-                    </Fade> 
-                {/* } */}
+        {burgerStatus &&  
+            <Fade left >
+                <div className='burgernav'>
+                    <div className="close__icon">
+                        <CloseIcon onClick={burgerStatusHandler} className="icon"/>
+                    </div>
+                    <div onClick={burgerStatusHandler}>
+                        <MobileMenu />
+                    </div>
+                </div> 
+            </Fade> 
+        } 
     </>
     )
 }
