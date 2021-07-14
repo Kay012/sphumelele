@@ -80,6 +80,7 @@ h2 {
     height: 100px;
     margin-top: 0;
     position: sticky;
+    position: -webkit-sticky; /* Safari */
     background-color: white;
     z-index: 888;
     top: 0;
