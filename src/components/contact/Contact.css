@@ -123,6 +123,9 @@ h4{
         width: 90%;
         
     }
+    .row{
+        padding: 10px 0;
+    }
 }
 .row{
     display: flex;
