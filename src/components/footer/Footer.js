@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="footer__last_line">
                 <span>All Content @ Sphumelele kati</span> 
                 <span className='divider'>|</span>
-                <span> Site by Anonymous Tec Solutions</span>
+                <span> Site by Anonymous Tech Solutions</span>
             </div>
             
             
