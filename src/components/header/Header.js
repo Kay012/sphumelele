@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-// import Fade from 'react-reveal'
+import Fade from 'react-reveal'
 import {useSelector, useDispatch} from 'react-redux'
 
 import MenuIcon from '@material-ui/icons/Menu';
@@ -33,9 +33,11 @@ const Header = () => {
     const burgerStatusHandler = async(e) => {
         e.preventDefault()
         await dispatch(burgerNavActions.burgerStatusHandler(burgerStatus))
+        console.log(burgerStatus)
         
     }
     return (
+        <>
         <div className='header'>
             <div className='eish'>
                 <div className="header__logo">
@@ -50,9 +52,9 @@ const Header = () => {
                 </div>
 
                 
-                {
-                    burgerStatus && 
-                    // <Fade right >
+                {/* {
+                    burgerStatus &&  */}
+                    {/* <Fade top when={burgerStatus} >
                     <div className='burgernav'>
                         <div className="close__icon">
                             <CloseIcon onClick={burgerStatusHandler} className="icon"/>
@@ -61,11 +63,26 @@ const Header = () => {
                             <MobileMenu />
                         </div>
                     </div> 
-                    // </Fade>
-                }
+                    </Fade> */}
+                {/* } */}
                 
             </div>
+            
         </div>
+
+            {/* {burgerStatus &&   */}
+                     <Fade left when={burgerStatus} >
+                    <div className='burgernav'>
+                        <div className="close__icon">
+                            <CloseIcon onClick={burgerStatusHandler} className="icon"/>
+                        </div>
+                        <div onClick={burgerStatusHandler}>
+                            <MobileMenu />
+                        </div>
+                    </div> 
+                    </Fade> 
+                {/* } */}
+    </>
     )
 }
 
