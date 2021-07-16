@@ -8,10 +8,18 @@ import './MobileMenu.css'
 const MobileMenu = () => {
     return (
         <div className="mobile__menu">
-            <MenuItem title='Home' Icon={HomeIcon} link='/'/>
-            <MenuItem title='Book' Icon={LibraryBooksIcon} link='/book'/>
-            <MenuItem title='Biography' Icon={PersonIcon} link='/biography'/>
-            <MenuItem title='Contact' Icon={ContactSupportIcon} link='/contact'/>
+            <div className="item_m">
+                <MenuItem title='Home' Icon={HomeIcon} link='/'/>
+            </div>
+            <div className="item_m">
+                <MenuItem title='Book' Icon={LibraryBooksIcon} link='/book'/>
+            </div>
+            <div className="item_m">
+                <MenuItem title='Biography' Icon={PersonIcon} link='/biography'/>
+            </div>
+            <div className="item_m">
+                <MenuItem title='Contact' Icon={ContactSupportIcon} link='/contact'/>
+            </div>
         </div>
     )
 }

@@ -3,5 +3,9 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 15px;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
+}
+
+.mobile__menu .item_m {
+    padding-bottom: 1.5rem;
 }
