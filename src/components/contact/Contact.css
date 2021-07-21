@@ -103,8 +103,9 @@ h4{
     font-size: 18px;
 }
 
-.contact_bod{
-    justify-content: flex-end;
+.contact_body{
+    /* justify-content: flex-end; */
+    padding-top: 1rem;
 }
 
 .contact_body .media h4{

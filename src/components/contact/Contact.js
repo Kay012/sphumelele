@@ -116,7 +116,7 @@ const skeleton_message = {
                     <input type="number"id="contact_number" name="contact_number" required value={emailMessage.contact_number} onChange={onChangeInputHandler}/>
                 </div>
                 <div className="row">
-                    <label htmlFor="order_book">Would you like to order "The Slippy Margin" book?</label>
+                    <label htmlFor="order_book">Would you like to order the book?</label>
                     <div className="row">
                         <select id="order_book" name="order_book" value={emailMessage.order_book} onChange={onChangeInputHandler}>
                             <option value="">Select</option>
