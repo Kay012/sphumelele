@@ -5,7 +5,7 @@
     justify-content: space-between;
     border: 2px solid #21556e;
     border-radius: 5px;
-    background-color:white;
+    background-color:rgb(20, 15, 15);
     padding: .2em;
     width: 80%;
     z-index: 888;
@@ -17,7 +17,7 @@
 .header__logo h2{
     color:#21556e;
     margin: 15px;
-    font-size: 25px;
+    font-size: 1.5625rem;
     position: relative;
 }
 
