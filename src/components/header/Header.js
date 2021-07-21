@@ -71,7 +71,7 @@ const Header = () => {
         </div>
 
         {burgerStatus &&  
-            <Fade left >
+            <Fade right>
                 <div className='burgernav'>
                     <div className="close__icon">
                         <CloseIcon onClick={burgerStatusHandler} className="icon"/>
