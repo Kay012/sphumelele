@@ -99,7 +99,7 @@ const skeleton_message = {
         <div className="contact_body">
             <div className="media" style={{placeItems: 'center'}}>
                 <SocialMediaIcon Icon={MailIcon} color='#D44638' size="29px"/>
-                <h4>Email us!</h4>
+                <h4>Email us below!</h4>
             </div>
             <form className="contact-form" onSubmit={sendEmail}>
 
