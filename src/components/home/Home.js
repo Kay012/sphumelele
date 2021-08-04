@@ -16,7 +16,7 @@ const Home = () => {
                 
                 <div className="top__author-name">
                     <p>Hello and welcome to my online home.</p>
-                    <p>I'm Sphumelele Kati</p>
+                    <p>I'm Siphumelele Kati</p>
                     <p>
                         I hope you’re all keeping safe and sound 
                         during these troubling times. In the meantime, 

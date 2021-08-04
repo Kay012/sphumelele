@@ -28,7 +28,7 @@ const Book = () => {
                     
                     <div className="wrapper__caption">
                         <p>
-                            Sphumelele Kati delivers a very 
+                            Siphumelele Kati delivers a very 
                             interesting book about friends
                             and lowkey enemies
                             in our lives.

@@ -88,7 +88,7 @@ const skeleton_message = {
                         </span>
                         <span className="phone">0767566216</span>
                         <span className="phone">0786852570</span>
-                        <span className="phone">(Siphumelelekati @gmail.com)</span>
+                        <span className="phone">(Siphumelelekati@gmail.com)</span>
                     </p>
                 </div>
             </div>
