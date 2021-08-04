@@ -41,7 +41,7 @@ const Header = () => {
         <div className='header'>
             <div className='eish'>
                 <div className="header__logo">
-                    <Link to='/'><h2>Sphumelele Kati</h2></Link>
+                    <Link to='/'><h2>Siphumelele Kati</h2></Link>
                 </div>
 
                 

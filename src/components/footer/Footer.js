@@ -24,7 +24,7 @@ const Footer = () => {
                 <Menu />
             </div>
             <div className="footer__last_line">
-                <span>All Content @ Sphumelele kati</span> 
+                <span>All Content @ Siphumelele kati</span> 
                 <span className='divider'>|</span>
                 <span> Site by Anonymous Tech Solutions</span>
             </div>
