@@ -62,7 +62,7 @@ const skeleton_message = {
                             <SocialMediaIcon Icon={FacebookIcon} color='#3b5998' size="29px"/>
                             <span style={{color: "#3b5998", fontSize: "19px"}}>Facebook:</span>
                         </span>
-                        <a href="https://www.facebook.com/siphumelele.kati.50">@Sphumelele cat-man Kati</a>
+                        <a href="https://www.facebook.com/siphumelele.kati.50">@Siphumelele cat-man Kati</a>
                         <a href="https://www.facebook.com/permalink.php?story_fbid=115816160722038&id=102334212070233&notif_id=1624227593868925&notif_t=page_followed_contents_awareness&ref=notif">@slippy-margin book</a>
                     </p>
                     <p>
@@ -70,7 +70,7 @@ const skeleton_message = {
                             <SocialMediaIcon Icon={InstagramIcon} color='#bc2a8d' size="29px"/>
                             <span style={{color: "#bc2a8d", fontSize: "19px"}}>Instagram:</span>
                         </span>
-                        <Link to="/">@Sphumelele cat-man Kati</Link>
+                        <a href="https://www.instagram.com/siphumelelekati/">@Siphumelele cat-man Kati</a>
                         <Link to="/">@slippy-margin book</Link>
                     </p>
                     <p>
@@ -78,7 +78,7 @@ const skeleton_message = {
                             <SocialMediaIcon Icon={LinkedInIcon} color='#007bb6' size="29px"/>
                             <span style={{color: "#007bb6", fontSize: "19px"}}>LinkedIn:</span>
                         </span>
-                        <Link to="/">@Sphumelele cat-man Kati</Link>
+                        <Link to="/">@Siphumelele cat-man Kati</Link>
                         <Link to="/">@slippy-margin book</Link>
                     </p>
                     <p>
